@@ -1,0 +1,101 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pre-loader {
+  height: calc(100vh - 4rem);
+  width: calc(100vw - 4rem);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: var(--background) 5000s ease-in-out 0s;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.explain-card {
+  width: min(90%, 1050px);
+  margin-inline: auto;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.table {
+  width: min(80%, 1000px);
+  margin-inline: auto;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.auth-form {
+  width: max(30%, 350px);
+  margin-inline: auto;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+@media (min-width: 712.5px) {
+  .explain-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+@media (min-width: 1125px) {
+  .explain-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+.dotted-border {
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23F1F5F9FF' stroke-width='7' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+}

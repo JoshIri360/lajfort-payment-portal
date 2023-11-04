@@ -1,0 +1,48 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "tuition": 5000,
+            "paid": 2000
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "tuition": 6000,
+            "paid": 3000
+        },
+        {
+            "id": 3,
+            "name": "Bob Johnson",
+            "tuition": 4500,
+            "paid": 1500
+        }
+    ],
+    
+    "classOptions": [
+        { "value": "22000", "class": "Kindergarten" },
+        { "value": "25000", "class": "Nursery 1" },
+        { "value": "25000", "class": "Nursery 2" },
+        { "value": "25000", "class": "Nursery 3" },
+        { "value": "27000", "class": "Primary 1" },
+        { "value": "27000", "class": "Primary 2" },
+        { "value": "27000", "class": "Primary 3" },
+        { "value": "30000", "class": "Primary 4" },
+        { "value": "30000", "class": "Primary 5" },
+        { "value": "45000", "class": "JSS1" },
+        { "value": "45000", "class": "JSS2" },
+        { "value": "45000", "class": "JSS3" },
+        { "value": "55000", "class": "SSS1" },
+        { "value": "55000", "class": "SSS2" },
+        { "value": "55000", "class": "SSS3" }
+      ],
+
+      "booksOptions": [
+        { "value": "35000", "class": "Pre Nursery" },
+        { "value": "45000", "class": "Nursery 4" },
+        { "value": "45000", "class": "Nursery 5" },
+        { "value": "48000", "class": "Basic 1 - 3" },
+        { "value": "55000", "class": "Basic 4 & 5" }
+      ]
+}
